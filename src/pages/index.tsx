@@ -1,3 +1,10 @@
+import NavigationBar from '@/components/NavigationBar/NavigationBar'
+
 export default function Page() {
-	return <h1>Hello, Next.js!</h1>
+	return (
+		<>
+			<NavigationBar/>	
+			<h1>Hello</h1>
+		</>
+	)
 }
