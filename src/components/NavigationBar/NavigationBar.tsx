@@ -1,59 +1,16 @@
 import { FC } from 'react'
+import { Menu, Segment } from 'semantic-ui-react'
 
 const NavigationBar: FC = () => {
 	return (
-		<>
-			<nav className='navbar navbar-expand-lg bg-dark'>
-				<div className='container-fluid'>
-					<a className='navbar-brand text-white' href='#'>
-						Navbar
-					</a>
-					<button
-						className='navbar-toggler'
-						type='button'
-						data-bs-toggle='collapse'
-						data-bs-target='#navbarNav'
-						aria-controls='navbarNav'
-						aria-expanded='false'
-						aria-label='Toggle navigation'
-					>
-						<span className='navbar-toggler-icon'></span>
-					</button>
-					<div className='collapse navbar-collapse' id='navbarNav'>
-						<ul className='navbar-nav'>
-							<li className='nav-item'>
-								<a
-									className='nav-link active'
-									aria-current='page'
-									href='#'
-									style={{ color: 'white' }}
-								>
-									Home
-								</a>
-							</li>
-							<li className='nav-item'>
-								<a
-									className='nav-link'
-									href='#'
-									style={{ color: 'white' }}
-								>
-									Features
-								</a>
-							</li>
-							<li className='nav-item'>
-								<a
-									className='nav-link'
-									href='#'
-									style={{ color: 'white' }}
-								>
-									Pricing
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</>
+		<Segment inverted>
+			<Menu inverted pointing secondary>
+				<Menu.Item name='APark' className='font-bold' header link />
+				<Menu.Item name='Experience' link />
+				<Menu.Item name='Projects' link />
+				<Menu.Item name='Personal' link />
+			</Menu>
+		</Segment>
 	)
 }
 export default NavigationBar
