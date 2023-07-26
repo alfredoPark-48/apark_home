@@ -1,9 +1,9 @@
-import NavigationBar from '@/components/NavigationBar/NavigationBar'
+import NavigationBar from "@/components/Layout/NavigationBar/NavigationBar"
 
 export default function Page() {
 	return (
 		<>
-			<NavigationBar/>	
+			<NavigationBar/>
 			<h1>Hello</h1>
 		</>
 	)
