@@ -4,7 +4,13 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 
 const NavigationBar: FC = () => {
 	return (
-		<Navbar collapseOnSelect expand='lg' bg='dark' data-bs-theme='dark'>
+		<Navbar
+			collapseOnSelect
+			expand='lg'
+			bg='dark'
+			data-bs-theme='dark'
+			className='w-screen'
+		>
 			<Container>
 				<Navbar.Brand href='' className='uppercase text-white'>
 					apark
@@ -19,7 +25,7 @@ const NavigationBar: FC = () => {
 							id='collapsible-nav-dropdown'
 						>
 							<NavDropdown.Item href='/leetcode'>
-                                Leetcode
+								Leetcode
 							</NavDropdown.Item>
 							<NavDropdown.Item href='/books'>
 								Books

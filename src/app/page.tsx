@@ -1,10 +1,13 @@
-import NavigationBar from '@/components/NavigationBar/NavigationBar'
+import MainLayout from '@/components/layout/MainLayout'
 
 export default function Home() {
 	return (
-		<>
-			<NavigationBar />
-			<h1 className='flex justify-center'>Hello</h1>
-		</>
+		<MainLayout>
+			<div className='flex flex-col'>
+				<div className='flex justify-center'>
+					<h1>Hello</h1>
+				</div>
+			</div>
+		</MainLayout>
 	)
 }
