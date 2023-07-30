@@ -1,6 +1,10 @@
+import NavigationBar from '@/components/NavigationBar/NavigationBar'
 
 export default function Home() {
-  return (
-    <h1>Hello</h1>
-  )
+	return (
+		<>
+			<NavigationBar />
+			<h1 className='flex justify-center'>Hello</h1>
+		</>
+	)
 }
