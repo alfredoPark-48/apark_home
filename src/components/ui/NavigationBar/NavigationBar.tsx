@@ -9,7 +9,6 @@ const NavigationBar: FC = () => {
 			expand='lg'
 			bg='dark'
 			data-bs-theme='dark'
-			className='w-screen'
 		>
 			<Container>
 				<Navbar.Brand href='' className='uppercase text-white'>
