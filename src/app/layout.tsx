@@ -17,7 +17,12 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='en'>
-			<body className={`${inter.className} bg-black h-screen text-white`}>
+			<head>
+				<title>APARK</title>
+			</head>
+			<body
+				className={`${inter.className} bg-black h-screen text-white flex flex-col justify-between`}
+			>
 				{children}
 			</body>
 		</html>
