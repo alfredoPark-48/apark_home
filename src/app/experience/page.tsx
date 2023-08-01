@@ -1,17 +1,19 @@
 import { FC } from 'react'
 import MainLayout from '@/components/layout/MainLayout'
 import ExperienceCard from '@/components/ui/ExperienceCard/ExperienceCard'
+import ListoMxLogo from '@/assets/images/listo-logo.png'
+import RubidexLogo from '@/assets/images/rubidex-logo.png'
 
 const ExperiencePage: FC = () => {
 	return (
 		<MainLayout>
-			<div className='flex flex-col justify-center items-center'>
+			<div className='flex flex-col justify-center items-center sm:py-10'>
 				<h1 className='text-3xl mb-10'>Employment</h1>
-				<div className='flex flex-col gap-5 w-50'>
+				<div className='flex flex-col gap-5 w-2/3 sm:w-2/3'>
 					<ExperienceCard
 						title='Penteon Corporation'
 						date='March 2023 - Present'
-						logo=''
+						logo={RubidexLogo.src}
 					>
 						<ul>
 							<li>
@@ -27,7 +29,7 @@ const ExperiencePage: FC = () => {
 					<ExperienceCard
 						title='Listo.mx'
 						date='November 2021 - Mat 2022'
-						logo=''
+						logo={ListoMxLogo.src}
 					>
 						<ul>
 							<li>

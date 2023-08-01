@@ -19,12 +19,12 @@ const ExperienceCard: FC<ExperienceCardProps> = ({
 	return (
 		<Card bg='dark' text='white'>
 			<Card.Body>
-				<div className='flex gap-4 items-center'>
-					<Card.Title>{title}</Card.Title>
+				<div className='flex gap-4 items-center justify-center sm:justify-start'>
+					<Card.Title className='mt-2'>{title}</Card.Title>
 					<Image
 						src={logo}
-						width={20}
-						height={20}
+						width={30}
+						height={30}
 						alt='company-logo'
 					/>
 				</div>
