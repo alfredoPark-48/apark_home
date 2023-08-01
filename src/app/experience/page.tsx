@@ -11,7 +11,7 @@ const ExperiencePage: FC = () => {
 				<h1 className='text-3xl mb-10'>Employment</h1>
 				<div className='flex flex-col gap-5 w-2/3 sm:w-2/3'>
 					<ExperienceCard
-						title='Penteon Corporation'
+						title='Rubidex'
 						date='March 2023 - Present'
 						logo={RubidexLogo.src}
 					>
@@ -28,7 +28,7 @@ const ExperiencePage: FC = () => {
 					</ExperienceCard>
 					<ExperienceCard
 						title='Listo.mx'
-						date='November 2021 - Mat 2022'
+						date='November 2021 - May 2022'
 						logo={ListoMxLogo.src}
 					>
 						<ul>
