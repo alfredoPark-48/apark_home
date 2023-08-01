@@ -11,7 +11,7 @@ const NavigationBar: FC = () => {
 			data-bs-theme='dark'
 		>
 			<Container>
-				<Navbar.Brand href='' className='uppercase text-white'>
+				<Navbar.Brand href='/' className='uppercase text-white'>
 					apark
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
