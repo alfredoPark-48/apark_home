@@ -11,35 +11,27 @@ const ExperiencePage: FC = () => {
 				<h1 className='text-3xl mb-10'>Employment</h1>
 				<div className='flex flex-col gap-5 w-2/3 sm:w-2/3'>
 					<ExperienceCard
+						key={1}
 						title='Rubidex'
 						date='March 2023 - Present'
 						logo={RubidexLogo.src}
 					>
-						<ul>
-							<li>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Mollitia quisquam labore
-								laborum iure, voluptatibus totam corporis dicta
-								expedita illum tempore doloribus veritatis sunt
-								nulla cum repudiandae asperiores eos accusamus
-								voluptates.
-							</li>
-						</ul>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Incidunt totam in, ipsa optio ab quasi magnam assumenda
+						sed id, mollitia ut consequatur adipisci illum quaerat
+						dolor consequuntur numquam eum obcaecati.
 					</ExperienceCard>
 					<ExperienceCard
+						key={0}
 						title='Listo.mx'
 						date='November 2021 - May 2022'
 						logo={ListoMxLogo.src}
 					>
-						<ul>
-							<li>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Vel quis necessitatibus iusto
-								eum, adipisci est quibusdam a ducimus esse porro
-								laboriosam nesciunt ratione fuga, natus aliquam
-								impedit? Vitae, ut consectetur.
-							</li>
-						</ul>
+						Lorem ipsum dolor sit amet, consectetur adipisicing
+						elit. Minima inventore architecto explicabo animi ab
+						repellendus commodi. Dolores praesentium ad distinctio
+						asperiores. Beatae illum fuga, laboriosam dignissimos
+						nam maiores placeat reprehenderit?
 					</ExperienceCard>
 				</div>
 			</div>
