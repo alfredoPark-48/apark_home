@@ -10,18 +10,22 @@ const ExperiencePage: FC = () => {
 		<MainLayout>
 			<div className='flex flex-col justify-center items-center sm:py-10'>
 				<h1 className='text-3xl mb-10'>Employment</h1>
-				<div className='flex flex-col gap-5 w-2/3 sm:w-2/3'>
+				<div className='flex flex-col gap-10 w-2/3 sm:w-2/3'>
 					<ExperienceCard
 						key={1}
 						title='Rubidex'
+						position='Software Developer'
 						date='March 2023 - Present'
 						logo={RubidexLogo.src}
 					>
-						<ExperienceItem key='rubidex-1'></ExperienceItem>
+						<ExperienceItem key='rubidex-1' technologies=''>
+							{''}
+						</ExperienceItem>
 					</ExperienceCard>
 					<ExperienceCard
 						key={0}
 						title='Listo.mx'
+						position='Software Developer Intern'
 						date='November 2021 - May 2022'
 						logo={ListoMxLogo.src}
 					>
@@ -44,7 +48,7 @@ const ExperiencePage: FC = () => {
 							Django and Scala to generate a summary in Excel
 							format.
 						</ExperienceItem>
-						<ExperienceItem key='listo-4'>
+						<ExperienceItem key='listo-4' technologies=''>
 							Implemented tests to ensure code quality and detect
 							errors during deployment.
 						</ExperienceItem>
