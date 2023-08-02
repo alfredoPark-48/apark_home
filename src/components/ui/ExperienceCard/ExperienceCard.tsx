@@ -19,23 +19,25 @@ const ExperienceCard: FC<ExperienceCardProps> = ({
 	children,
 }) => {
 	return (
-		<Card bg='dark' text='white' className='px-3 py-2' key={key}>
+		<Card bg='dark' text='white' className='px-3 py-2 hover:bg-gray-800' key={key}>
 			<Card.Body>
-				<div className='flex gap-4 items-center justify-center sm:justify-normal'>
-					<Card.Title className='mt-2'>{title}</Card.Title>
-					<Image
-						src={logo}
-						width={30}
-						height={30}
-						alt='company-logo'
-					/>
+				<div className='flex gap-4 items-center justify-center sm:justify-normal mb-3'>
+					<div>
+						<Card.Title className='mt-2'>{title}</Card.Title>
+					</div>
+					<div>
+						<Image
+							src={logo}
+							width={30}
+							height={30}
+							alt='company-logo'
+						/>
+					</div>
 				</div>
 				<Card.Subtitle className='mb-2 text-white/50'>
 					{date}
 				</Card.Subtitle>
-				<Card.Text>
-					{children}
-				</Card.Text>
+				<Card.Text>{children}</Card.Text>
 			</Card.Body>
 		</Card>
 	)

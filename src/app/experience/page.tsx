@@ -16,10 +16,20 @@ const ExperiencePage: FC = () => {
 						date='March 2023 - Present'
 						logo={RubidexLogo.src}
 					>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Incidunt totam in, ipsa optio ab quasi magnam assumenda
-						sed id, mollitia ut consequatur adipisci illum quaerat
-						dolor consequuntur numquam eum obcaecati.
+						○ Extracted data from account statements using Django
+						and Regular language to generate a personalized summary
+						in PDF format. 
+						○ Extracted information from invoices to
+						be displayed in the interface using Django. 
+						○ Extracted
+						Bill of Lading data from invoices using Django and Scala
+						to generate a summary in Excel format. 
+						○ Implemented
+						tests to ensure code quality and detect errors during
+						deployment. 
+						○ Updated the installation process for the
+						development environment for future developers in the
+						team.
 					</ExperienceCard>
 					<ExperienceCard
 						key={0}
