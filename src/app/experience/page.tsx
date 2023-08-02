@@ -8,7 +8,7 @@ import ExperienceItem from '@/components/ui/Experience/ExperienceItem/Experience
 const ExperiencePage: FC = () => {
 	return (
 		<MainLayout>
-			<div className='flex flex-col justify-center items-center sm:py-10'>
+			<div className='flex flex-col justify-center items-center py-10'>
 				<h1 className='text-3xl mb-10'>Employment</h1>
 				<div className='flex flex-col gap-10 w-2/3 sm:w-2/3'>
 					<ExperienceCard
