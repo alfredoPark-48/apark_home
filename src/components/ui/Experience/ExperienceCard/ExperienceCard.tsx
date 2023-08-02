@@ -6,6 +6,7 @@ import Image from 'next/image'
 interface ExperienceCardProps {
 	key: number
 	title: string
+	position: string
 	date: string
 	logo: string
 	children: ReactNode
@@ -14,6 +15,7 @@ interface ExperienceCardProps {
 const ExperienceCard: FC<ExperienceCardProps> = ({
 	key,
 	title,
+	position,
 	date,
 	logo,
 	children,
@@ -28,7 +30,7 @@ const ExperienceCard: FC<ExperienceCardProps> = ({
 			<Card.Body>
 				<div className='flex gap-4 items-center justify-center sm:justify-normal mb-3'>
 					<div>
-						<Card.Title className='mt-2'>{title}</Card.Title>
+						<Card.Title className='mt-2 text-2xl'>{title}</Card.Title>
 					</div>
 					<div>
 						<Image
@@ -39,6 +41,9 @@ const ExperienceCard: FC<ExperienceCardProps> = ({
 						/>
 					</div>
 				</div>
+				<Card.Subtitle className='mb-3 text-xl'>
+					{position}
+				</Card.Subtitle>
 				<Card.Subtitle className='mb-2 text-white/50'>
 					{date}
 				</Card.Subtitle>
