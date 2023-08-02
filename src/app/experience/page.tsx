@@ -18,8 +18,12 @@ const ExperiencePage: FC = () => {
 						date='March 2023 - Present'
 						logo={RubidexLogo.src}
 					>
-						<ExperienceItem key='rubidex-1' technologies=''>
-							{''}
+						<ExperienceItem
+							key='rubidex-1'
+							technologies='Next.js, Typescript'
+						>
+							Developed and implemented the frontend architecture
+							for Rubidex web application.
 						</ExperienceItem>
 					</ExperienceCard>
 					<ExperienceCard
