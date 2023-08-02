@@ -25,6 +25,11 @@ const ExperiencePage: FC = () => {
 							Developed and implemented the frontend architecture
 							for Rubidex web application.
 						</ExperienceItem>
+						<ExperienceItem key='rubidex-2' technologies='Express'>
+							Architected and implemented a robust and secure key
+							management system service to manage cryptographic
+							keys for user authentication.
+						</ExperienceItem>
 					</ExperienceCard>
 					<ExperienceCard
 						key={0}
