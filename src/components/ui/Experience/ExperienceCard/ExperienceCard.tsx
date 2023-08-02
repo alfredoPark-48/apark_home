@@ -44,7 +44,7 @@ const ExperienceCard: FC<ExperienceCardProps> = ({
 				<Card.Subtitle className='mb-3 text-xl'>
 					{position}
 				</Card.Subtitle>
-				<Card.Subtitle className='mb-2 text-white/50'>
+				<Card.Subtitle className='text-white/50'>
 					{date}
 				</Card.Subtitle>
 				<ListGroup variant='flush'>{children}</ListGroup>
