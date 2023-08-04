@@ -23,12 +23,21 @@ const ExperiencePage: FC = () => {
 							technologies='Next.js, Typescript'
 						>
 							Developed and implemented the frontend architecture
-							for Rubidex web application.
+							for Rubidex web application, creating a performant
+							and user friendly interface.
 						</ExperienceItem>
 						<ExperienceItem key='rubidex-2' technologies='Express'>
 							Architected and implemented a robust and secure key
 							management system service to manage cryptographic
 							keys for user authentication.
+						</ExperienceItem>
+						<ExperienceItem
+							key='rubidex-3'
+							technologies='Next.js, Typescript'
+						>
+							Developed and implemented the frontend architecture
+							for Intel Building Management System, creating an
+							elegant and interactive user interface.
 						</ExperienceItem>
 					</ExperienceCard>
 					<ExperienceCard
