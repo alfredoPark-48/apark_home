@@ -16,10 +16,10 @@ const ExperienceItem: FC<ExperienceItemProps> = ({
 	return (
 		<ListGroupItem key={key} className='bg-dark text-white'>
 			<div className='flex sm:justify-between sm:flex-row flex-col gap-3'>
-				<div>
+				<div className='sm:w-2/3'>
 					<p>{children}</p>
 				</div>
-				<div>
+				<div className='sm:flex sm:w-1/3 sm:justify-end text-center'>
 					<p className='font-bold ml-2'>{technologies}</p>
 				</div>
 			</div>
