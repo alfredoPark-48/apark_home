@@ -51,6 +51,13 @@ const NavigationBar: FC = () => {
 							>
 								Courses
 							</NavDropdown.Item>
+							<NavDropdown.Item
+								onClick={() =>
+									routeChangeHandler('/miscellaneous')
+								}
+							>
+								Miscellaneous
+							</NavDropdown.Item>
 						</NavDropdown>
 					</Nav>
 				</Navbar.Collapse>
